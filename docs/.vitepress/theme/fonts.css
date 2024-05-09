@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'MiSans Latin';
+    font-weight: normal;
+    src: url(./fonts/MiSansLatin-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'MiSans Latin';
+    font-weight: bold;
+    src: url(./fonts/MiSansLatin-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'MiSans';
+    font-weight: normal;
+    src: url(./fonts/MiSans-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'MiSans';
+    font-weight: bold;
+    src: url(./fonts/MiSans-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Cascadia Mono NF';
+    font-weight: normal;
+    src: url(./fonts/CascadiaMonoNF-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'Cascadia Mono NF';
+    font-weight: bold;
+    src: url(./fonts/CascadiaMonoNF-Bold.woff2);
+}
+
+:root {
+    --vp-font-family-base: 'MiSans Latin', 'MiSans';
+    --vp-font-family-mono: 'Cascadia Mono NF'
+}

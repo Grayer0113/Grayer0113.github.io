@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "调试",
+            "request": "launch",
+            "type": "node-terminal",
+            "command": "npm run docs:dev"
+        },
+        {
+            "name": "构建",
+            "request": "launch",
+            "type": "node-terminal",
+            "command": "npm run docs:build"
+        },
+        {
+            "name": "预览",
+            "request": "launch",
+            "type": "node-terminal",
+            "command": "npm run docs:preview"
+        }
+    ]
+}
