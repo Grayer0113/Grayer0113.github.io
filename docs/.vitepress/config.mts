@@ -9,7 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     nav: [
-      { text: '主页', link: '/Index' },
+      { text: '主页', link: '/' },
       { text: 'Arch Linux', link: '/ArchLinux/Index' }
     ],
 
